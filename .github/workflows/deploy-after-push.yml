@@ -14,5 +14,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: 22
-        source: "mag/*"
+        source: "mutiara/*"
         target: /var/www/html
+        timeout: 128s
